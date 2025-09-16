@@ -8,6 +8,7 @@ const pool = require('./config/database');
 const userProfileRoutes = require('./routes/userProfile');
 const authRoutes = require('./routes/auth');
 const projectsRoutes = require('./routes/projects');
+const mentorReviewRoutes = require('./routes/mentorReviews');
 
 const app = express();
 const PORT = process.env.PORT || 5000;
@@ -20,6 +21,7 @@ app.use(express.json());
 app.use('/api', userProfileRoutes);
 app.use('/api/auth', authRoutes);
 app.use('/api/projects', projectsRoutes);
+app.use('/api/mentorreviews', mentorReviewRoutes);
 
 // Health check endpoint
 app.get('/health', (req, res) => {
