@@ -4,7 +4,7 @@ import logo from "../../assets/logo.png"; // adjust path if needed
 
 const Header = () => {
   return (
-    <header className="font-sans fixed w-full z-50 bg-white/80 backdrop-blur-lg shadow-sm transition">
+    <header className="font-sans fixed w-full z-50  bg-white/80 backdrop-blur-lg shadow-sm transition">
       <div className="max-w-7xl mx-auto flex justify-between items-center px-6 py-4">
         {/* Logo */}
         <Link to="/" aria-label="Uptoskills Home">

@@ -55,12 +55,12 @@ export default function App() {
             <div className="flex flex-col sm:flex-row gap-4">
               <a href="/login">
                 <button className="bg-gradient-to-r from-[#00BDA6] to-[#1BBC9B] hover:from-[#f97316] hover:to-[#fb923c] text-white px-6 py-3 rounded-full font-semibold shadow-lg hover:shadow-xl transition duration-500 w-full sm:w-auto">
-                  🔐 Login
+                   Login
                 </button>
               </a>
               <a href="/register">
                 <button className="bg-gradient-to-r from-[#f97316] to-[#fb923c] hover:from-[#00BDA6] hover:to-[#1BBC9B] text-white px-6 py-3 rounded-full font-semibold shadow-lg hover:shadow-xl transition duration-500 w-full sm:w-auto">
-                  📝 Register
+                   Register
                 </button>
               </a>
             </div>
